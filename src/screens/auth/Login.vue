@@ -26,7 +26,7 @@ const authStore = useAuthStore()
 
 function handleLogin() {
   // Fake token for example
-  authStore.login('demo_token', { email: email.value })
+  ;(authStore as any).login('demo_token', { email: email.value })
 }
 
 function goToForgotPassword() {

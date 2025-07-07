@@ -1,8 +1,8 @@
-import ChangePassword from '@/screens/auth/changePassword.vue'
-import ForgotPassword from '@/screens/auth/forgotPassword.vue'
-import Login from '@/screens/auth/login.vue'
-import Otp from '@/screens/auth/otp.vue'
-import Signup from '@/screens/auth/signup.vue'
+import ChangePassword from '@/screens/auth/ChangePassword.vue'
+import ForgotPassword from '@/screens/auth/ForgotPassword.vue'
+import Login from '@/screens/auth/Login.vue'
+import Otp from '@/screens/auth/Otp.vue'
+import Signup from '@/screens/auth/Signup.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [

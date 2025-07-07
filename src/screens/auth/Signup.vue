@@ -19,11 +19,9 @@ import { ref } from 'vue'
 
 const email = ref('')
 const password = ref('')
-const authStore = useAuthStore()
 
 function handleLogin() {
   // Fake token for example
-  authStore.login('demo_token', { email: email.value })
 }
 </script>
 
